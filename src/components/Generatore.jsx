@@ -3,7 +3,7 @@ import QRCode from 'react-qr-code';
 import html2canvas from 'html2canvas';
 import { Container, Row, Col, Form, Button } from 'react-bootstrap';
 
-function MainComponent() {
+export default function Generatore() {
   const [userInput, setUserInput] = useState('');
   const [sizeChoice, setSizeChoice] = useState(300);
   const [FGColorChoice, setFGColorChoice] = useState("#000");
@@ -98,4 +98,3 @@ function MainComponent() {
   );
 }
 
-export default MainComponent;

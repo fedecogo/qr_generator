@@ -1,12 +1,12 @@
-import MainComponent from ".src/components/MainComponent.jsx"; 
-import './App.css';
 
-function App() {
-  return (
+import './App.css';
+import Generatore from './components/Generatore';
+
+const App = () => (
     <div className="App">
-        <MainComponent/>
+        <Generatore/>
     </div>
   );
-}
+
 
 export default App;
